@@ -1,0 +1,92 @@
+\documentclass{article}
+
+% Preamble
+\usepackage[dvipsnames]{xcolor}
+\usepackage{geometry}
+\usepackage{amsthm}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{txfonts,pxfonts}
+\usepackage[many]{tcolorbox}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=red,
+	urlcolor=cyan
+}
+\usepackage{}
+\newtheorem{definition}{Definition}
+
+\title{An Introduction to ``Dimensionality''\\Some Warping Required}
+\author{Jan Armendariz-Bones}
+\date{Last Updated: \today}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+This paper is about the ideas of dimensionality, both in the relatively physical sense of Linear Algebra as well as into the non-standard way of thinking for fractals.
+\subsection{A Brief Summary of Linear Algebra}
+First we begin by reviewing some general axioms and definitions from linear algebra.
+
+\begin{definition} (Vector Space Axioms)
+		We say that a space $X$ with scalars in a field $\mathbb{F}$ is said to be a vector space if the following conditions are satisfied:
+		\begin{itemize}
+				\item (Associativity) For any $u,v,$ and $w$ in the space $X$, we have that \[u+(v+w)=(u+v)+w.\]
+				\item (Commutativity) For any $u,v\in X$ we have that \[u+v=v+u.\]
+				\item (Identity Element) There exists a vector $e\in X$ such that for any $v\in X$, $ev=ve=v$.
+				\item (Zero Vector) There exists a vector $0\in X$ such that for any $v\in X$, $0+v=v+0=v$.   
+				\item (Inverse Element) For any $v\in X$, there exists another vector -- denoted as the element $-v$ -- such that
+						\[
+								v+(-v)=0.
+						\]
+				\item (Associativity of Scalars)For any two scalars $a,b\in\mathbb{F}$ and $v\in X$,
+						\[
+								a(bv) = b(av).
+						\]
+		\item (Identity scalar) There exists a $1\in\mathbb{F}$ such that for any $v\in X$, \[1v=v.\] 
+		\end{itemize}	
+\end{definition}	
+\noindent\textbf{Remark:} If we have a subset, $Y$,  of a vector space, $X$,  that satisfies the vector space axioms, we call $Y$ a \emph{subspace} of $X$. 
+
+When we consider any vector space, we need some way to refer to an arbitrary point in space. In $\mathbf{R}^2$, we would say that a point in the space is described as $(x,y)$ where $x$ and $y$ are real numbers, denoting how far they are from the origin with respect to the $x$ and $y$ axes. Now within that description, there was a fundamental choice between the ``building blocks'' of the vector space. Those blocks being $(1,0)$ and $(0,1)$ respectively. How can we determine what we can choose as those blocks? 
+\begin{definition}
+		(Linear Combination) For any two vectors, $u$ and $v$, we call the linear combination of the two the collection of vectors such that we have vectors of the form \[au+bv,\] where $a$ and $b$ are scalars.
+\end{definition}	
+\begin{definition}
+		(Span) We say that a collection of vectors $\{v_1,v_2,\dots,v_n\}$ span a vector space $V$ when:
+		\begin{itemize}
+				\item Every vector in space can be represented as a linear combination of our 
+		\end{itemize}	
+\end{definition}	
+\textbf{Remark:} We call the collection of vectors that span the vector space a \emph{basis} for the space $V$. 
+\newpage
+\section{Outline}
+\begin{itemize}
+		\item General Linear Algebra definition of dimensionality.
+				\begin{itemize}
+						\item LADR (uses term degree):
+								
+										A polynomial $p\in P(\mathcal{F})$ is said to have degree $m$ if there exists scalars $(a_i)_1^n$ -- where $a_n\neq \mathbf{0}$ in the scalar field such that for any $z\in\mathcal{F})$, we have that \[p(z)=\sum_{1}^n a_i b_i.\] 
+
+						\item 
+				\end{itemize}	
+		\item Manifolds and atlases.
+				\begin{itemize}
+				\item Abstract Algbera (Visual Algbera): The dimension of a field is the same as the vector space dimension, however the adjoining of an element ``adds'' a dimension to the field.
+						\begin{itemize}
+								\item Consider $\mathbb{R}(i)\cong \mathbb{C}$. From the perspective of the field $\mathbb{R}$, there is two dimensions; with the bases 1 and $i$.
+						\end{itemize}
+				\begin{itemize}
+						\item Hausdorff dimension: How can I separate these two things??
+								\begin{itemize}
+										\item Consider the difference between a (Koch) fractal and a square. One seems to take up less area than the other?
+												\textbf{not a trick question! $A(C)<A(Sq)$}.
+																						\item What is the ``minimum'' hypervolume growth necessary for each?!?
+												\item Why is this fractal so wacky?!
+																														\item Remark that there is infinite perimeter, yet finite area...
+														
+								\end{itemize}	
+				\end{itemize}	
+		\end{itemize}	
+\end{itemize}	
+\end{document}
