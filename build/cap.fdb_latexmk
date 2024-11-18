@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1731962096 "cap.tex" "build/cap.pdf" "cap" 1731962097 0
+["pdflatex"] 1731962929 "cap.tex" "build/cap.pdf" "cap" 1731962931 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/pxfonts/pcxr.tfm" 1136768653 1500 0e656ea8eb79997feb10bea27ed72329 ""
@@ -30,6 +30,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb" 1136849748 24771 eb123b1d6db1a8a40172a27eb12cf6d5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb" 1136849748 16316 4d08244d226e4fedda79ab2df045fbf7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb" 1136849748 7246 c289ca9b4ffe098d3d75782b0984881a ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxi.pfb" 1136849748 7534 1864e72ffd543c185f4ec1914f2f0803 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb" 1232066025 14672 0093e684026e66eef888939395e1a17d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb" 1136849748 7191 79607a98b23ce10ce99a66b7d89948fa ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
@@ -192,10 +193,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1697574814 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1697574754 7883459 40cf536d37fe6aa5ba1cb79b7c1f7da8 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "build/cap.aux" 1731962097 1952 aaa6f43d19ea3ff42422b5185c330930 "pdflatex"
-  "build/cap.out" 1731962097 1961 5051ab7b9678612e5e65dc17fc99380c "pdflatex"
-  "build/cap.toc" 1731962097 947 b99f14ba88ff4a29f07947de55c4c96d "pdflatex"
-  "cap.tex" 1731962095 7564 5e22c087ce6898c33b8d499a1024f314 ""
+  "build/cap.aux" 1731962930 1952 aaa6f43d19ea3ff42422b5185c330930 "pdflatex"
+  "build/cap.out" 1731962930 1961 5051ab7b9678612e5e65dc17fc99380c "pdflatex"
+  "build/cap.toc" 1731962930 947 b99f14ba88ff4a29f07947de55c4c96d "pdflatex"
+  "cap.tex" 1731962928 7573 b5db7a08f587efe3fca23d1ec02d148d ""
   (generated)
   "build/cap.aux"
   "build/cap.log"

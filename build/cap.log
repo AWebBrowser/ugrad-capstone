@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.17)  18 NOV 2024 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.17)  18 NOV 2024 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,11 +851,11 @@ Here is how much of TeX's memory you used:
  543021 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,6n,104p,542b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on build/cap.pdf (4 pages, 98376 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on build/cap.pdf (4 pages, 100413 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 156 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  22 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

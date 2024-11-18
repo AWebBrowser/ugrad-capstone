@@ -1052,6 +1052,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxi.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
