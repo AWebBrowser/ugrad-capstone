@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.17)  6 NOV 2024 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.17)  18 NOV 2024 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,30 +828,34 @@ LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <10> not available
 \tf@toc=\write5
 \openout5 = `cap.toc'.
 
-LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <12> not available
-(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+pxr on input line 35.
+LaTeX Font Info:    Trying to load font information for TS1+pxr on input line 36.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/pxfonts/ts1pxr.fd
 File: ts1pxr.fd 2000/12/14 v1.0
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] (build/cap.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <12> not available
+(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 64.
+ [2]
+LaTeX Font Info:    Font shape `OT1/pxr/b/it' in size <10> not available
+(Font)              Font shape `OT1/pxr/bx/it' tried instead on input line 77.
+ [3] [4] (build/cap.aux)
 Package rerunfilecheck Info: File `cap.out' has not changed.
-(rerunfilecheck)             Checksum: 6087EA0191882054821ADB47370DDE99;1248.
+(rerunfilecheck)             Checksum: 5051AB7B9678612E5E65DC17FC99380C;1961.
  ) 
 Here is how much of TeX's memory you used:
- 25773 strings out of 476025
- 514100 string characters out of 5790016
+ 25781 strings out of 476025
+ 514144 string characters out of 5790016
  1861388 words of memory out of 5000000
  45773 multiletter control sequences out of 15000+600000
- 542505 words of font info for 120 fonts, out of 8000000 for 9000
+ 543021 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,104p,542b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on build/cap.pdf (3 pages, 83840 bytes).
+ 101i,6n,104p,542b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on build/cap.pdf (4 pages, 98376 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

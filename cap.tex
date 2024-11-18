@@ -24,9 +24,10 @@
 \begin{document}
 \maketitle
 \tableofcontents
+\setcounter{section}{-1}
 \section{Introduction}
 This paper is about the ideas of dimensionality, both in the relatively physical sense of Linear Algebra as well as into the non-standard way of thinking for fractals.
-\subsection{A Brief Summary of Linear Algebra}
+\section{A Brief Summary of Linear Algebra}
 First we begin by reviewing some general axioms and definitions from linear algebra.
 
 \begin{definition} (Vector Space Axioms)
@@ -49,53 +50,88 @@ First we begin by reviewing some general axioms and definitions from linear alge
 \end{definition}	
 \noindent\textbf{Remark:} If we have a subset, $Y$,  of a vector space, $X$,  that satisfies the vector space axioms, we call $Y$ a \emph{subspace} of $X$. 
 
-When we consider any vector space, we need some way to refer to an arbitrary point in space. In $\mathbf{R}^2$, we would say that a point in the space is described as $(x,y)$ where $x$ and $y$ are real numbers, denoting how far they are from the origin with respect to the $x$ and $y$ axes. Now within that description, there was a fundamental choice between the ``building blocks'' of the vector space. Those blocks being $(1,0)$ and $(0,1)$ respectively. How can we determine what we can choose as those blocks? 
+When we consider any vector space, we need some way to refer to an arbitrary point in space. In $\mathbb{R}^2$, we would say that a point in the space is described as $(x,y)$ where $x$ and $y$ are real numbers, denoting how far they are from the origin with respect to the $x$ and $y$ axes. Now within that description, there was a fundamental choice between the ``building blocks'' of the vector space. Those blocks being $(1,0)$ and $(0,1)$ respectively. How can we determine what we can choose as those blocks? 
 \begin{definition}
 		(Linear Combination) For any two vectors, $u$ and $v$, we call the linear combination of the two the collection of vectors such that we have vectors of the form \[au+bv,\] where $a$ and $b$ are scalars.
 \end{definition}	
 \begin{definition}
 		(Span) We say that a collection of vectors $\{v_1,v_2,\dots,v_n\}$ span a vector space $V$ when:
 		\begin{itemize}
-				\item Every vector in space can be represented as a linear combination of our 
+				\item Every vector in space can be represented as a linear combination of our basis vectors. 
 		\end{itemize}	
 \end{definition}	
 \textbf{Remark:} We call the collection of vectors that span the vector space a \emph{basis} for the space $V$. 
 \subsection{Dimension of Vector Spaces}
+We say that a vector space has a finite dimension if there are a finite number of vectors in the basis. Otherwise we say that the vector space is \emph{infinite dimensional}.
+
+So, if a vector space $\mathcal{V}$  has $3$ vectors in its basis, then we say that $\mathcal{V}$ has a dimension of $3$.  
 
 \section{Manifolds}
 \subsection{What is a manifold?}
 
+\textbf{Example to strive towards:} An example of a manifold would be the Earth, as when we ``zoom'' in, the surface of the object appears to look like $\mathbb R^2$.
 \subsection{Atlases and Charts}
-\subsubsection{Open Mapping Condition}
-\subsection{}
-\newpage
-\section{Outline}
-\begin{itemize}
-		\item General Linear Algebra definition of dimensionality.
-				\begin{itemize}
-						\item LADR (uses term degree):
-								
-										A polynomial $p\in P(\mathcal{F})$ is said to have degree $m$ if there exists scalars $(a_i)_1^n$ -- where $a_n\neq \mathbf{0}$ in the scalar field such that for any $z\in\mathcal{F})$, we have that \[p(z)=\sum_{1}^n a_i b_i.\] 
 
-						\item 
-				\end{itemize}	
-		\item Manifolds and atlases.
-				\begin{itemize}
-				\item Abstract Algbera (Visual Algbera): The dimension of a field is the same as the vector space dimension, however the adjoining of an element ``adds'' a dimension to the field.
-						\begin{itemize}
-								\item Consider $\mathbb{R}(i)\cong \mathbb{C}$. From the perspective of the field $\mathbb{R}$, there is two dimensions; with the bases 1 and $i$.
-						\end{itemize}
-				\begin{itemize}
-						\item Hausdorff dimension: How can I separate these two things??
-								\begin{itemize}
-										\item Consider the difference between a (Koch) fractal and a square. One seems to take up less area than the other?
-												\textbf{not a trick question! $A(C)<A(Sq)$}.
-																						\item What is the ``minimum'' hypervolume growth necessary for each?!?
-												\item Why is this fractal so wacky?!
-																														\item Remark that there is infinite perimeter, yet finite area...
-														
-								\end{itemize}	
-				\end{itemize}	
-		\end{itemize}	
-\end{itemize}	
+A \textbf{homeomorphism} is a concept in topology that describes a strong form of equivalence between topological spaces, meaning that they are structurally the same space.
+\begin{definition}
+		Given two topological spaces \( X \) and \( Y \), we say a function \( f: X \rightarrow Y \) is called a \textbf{homeomorphism} if the following are true:
+
+		\begin{itemize}
+				\item Bijective: \( f \) is a one-to-one (injective) and onto (surjective) function.
+				\item Continuous: The function \( f \) is continuous, meaning that the preimage of any open set in \( Y \) is open in \( X \).
+				\item Continuous inverse: The inverse function \( f^{-1}: Y \to X \) is also continuous.
+\end{itemize}
+
+If such a function \( f \) exists, then the spaces \( X \) and \( Y \) are said to be \textbf{homeomorphic}.
+\end{definition}	
+
+Said in another way, if these two spaces are homeomorphic, we can treat the spaces like Play-Doh, where we can stretch and warp $X$ into a space that looks like $Y$.  
+
+In topology, an atlas on a manifold \( M \) is a collection of charts that together describe the structure of the manifold.
+
+\begin{definition}
+		An atlas for a topological space \( M \) is a collection of pairs \[ \{(U_i, \phi_i)\}_{i \in I}, \] where:
+
+		\begin{itemize}
+				\item\( \{U_i\} \) is an open cover of \( M \), meaning that \( M = \bigcup_{i \in I} U_i \) and each \( U_i \) is an open subset of \( M \).
+				\item Each \( \phi_i: U_i \to V_i \subset \mathbb{R}^n \) is a \textbf{homeomorphism} from \( U_i \) onto an open subset \( V_i \) of \( \mathbb{R}^n \).
+		\end{itemize}
+\end{definition}
+The maps \( \phi_i \) are known as **coordinate charts**. An atlas thus provides a way of covering the manifold with coordinate systems that describe its local geometry. When the transition maps between overlapping charts \( \phi_i \) and \( \phi_j \) are differentiable (or satisfy other specified conditions), the atlas is said to be differentiable, giving rise to a **differentiable manifold** or **smooth manifold**.
+
+\subsubsection{Open Mapping Condition} % I believe this is the name...
+\newpage
+\section{Box Covering Dimension}
+\subsection{Looking at the Coast of Britain and Fractals}
+\section{Hausdorff Covering Dimension}
+\subsection{Infinite ``Area''; Zero Area}
+%\section{Outline}
+%\begin{itemize}
+%		\item General Linear Algebra definition of dimensionality.
+%				\begin{itemize}
+%						\item LADR (uses term degree):
+%								
+%										A polynomial $p\in P(\mathcal{F})$ is said to have degree $m$ if there exists scalars $(a_i)_1^n$ -- where $a_n\neq \mathbf{0}$ in the scalar field such that for any $z\in\mathcal{F})$, we have that \[p(z)=\sum_{1}^n a_i b_i.\] 
+%
+%						\item 
+%				\end{itemize}	
+%		\item Manifolds and atlases.
+%				\begin{itemize}
+%				\item Abstract Algbera (Visual Algbera): The dimension of a field is the same as the vector space dimension, however the adjoining of an element ``adds'' a dimension to the field.
+%						\begin{itemize}
+%								\item Consider $\mathbb{R}(i)\cong \mathbb{C}$. From the perspective of the field $\mathbb{R}$, there is two dimensions; with the bases 1 and $i$.
+%						\end{itemize}
+%				\begin{itemize}
+%						\item Hausdorff dimension: How can I separate these two things??
+%								\begin{itemize}
+%										\item Consider the difference between a (Koch) fractal and a square. One seems to take up less area than the other?
+%												\textbf{not a trick question! $A(C)<A(Sq)$}.
+%																						\item What is the ``minimum'' hypervolume growth necessary for each?!?
+%												\item Why is this fractal so wacky?!
+%																														\item Remark that there is infinite perimeter, yet finite area...
+%														
+%								\end{itemize}	
+%				\end{itemize}	
+%		\end{itemize}	
+%\end{itemize}	
 \end{document}
